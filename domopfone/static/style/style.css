@@ -1,0 +1,66 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.first_container {
+    width: 1920px;
+    height: 464px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    background: linear-gradient(147.17deg, #D251FF 0%, #FF7A00 100%);
+}
+
+.intro_logo {
+    /* Group 84 */
+    position: absolute;
+    width: 1097px;
+    height: 304px;
+    left: 417px;
+    top: 80px;
+}
+
+.text_UP {
+    /* Умный домофон */
+    position: absolute;
+    width: 566px;
+    height: 86px;
+    left: calc(50% - 566px/2 - 260px);
+    top: 50px;
+    bottom: 253px;
+
+    font-family: 'Houschka Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 120%;
+    /* or 86px */
+
+    /* white */
+    color: #FFFFFF;
+
+    /* border: 1px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+.text_DOWN {
+    /* Поможет сделать .... 100 000 */
+    position: absolute;
+    width: 566px;
+    height: 112px;
+    left: calc(50% - 566px/2 - 260px);
+    top: 150px;
+
+    font-family: 'Houschka Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+    /* white */
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
