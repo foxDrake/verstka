@@ -68,29 +68,32 @@
 .two_container {
     position: absolute;
     width: 1920px;
-    height: 1337px;
+    /* height: 1337px; */
     left: 0px;
     top: 464px;
 
     /* grey blue */
     background: #F5F9FE;
+    border: solid;
+    border-color: black;
 }
 
-.about{
+
+.about {
+    margin-top: 80px;
+    margin-left: 453px;
+    margin-right: 453px;
+    margin-bottom: 1104px;
     width: 1024px;
     height: 153px;
     top: 80px;
     left: 453px;
     gap: 0px;
     opacity: 0px;
+}
 
-
+.about>.one_line {
 /* Возможности умных функций в мобильном приложении «Мой POWERNET» */
-    position: absolute;
-    width: 1024px;
-    height: 153px;
-    left: calc(50% - 1024px/2 + 5px);
-    top: 80px;
 
     font-family: 'Houschka Pro';
     font-style: normal;
@@ -108,7 +111,8 @@
     -webkit-text-fill-color: transparent;
 }
 
-span {
+
+.span {
     font-family: Houschka Pro;
     font-size: 32px;
     font-weight: 500;
@@ -116,42 +120,40 @@ span {
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+}
+
+.two_container>.carousel>.row>.col-10>.container>.row>.col {
+    margin-top: 313px;
+    border: solid;
+    border-color: black;
 
 }
 
+.carousel>.row>container>.row>.col {
+    /* Frame 902 */
+/*     
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
 
-
-
-.activ_button {
-position: absolute;
-width: 506.5px;
-height: 64px;
-left: calc(50% - 506.5px/2 - 1.25px);
-top: 1193px;
-
-/* btn-call */
-
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 16px 24px;
-gap: 8px;
-
-position: absolute;
-width: 258px;
-height: 64px;
-left: calc(50% - 258px/2 - 125.5px);
-top: 1193px;
-
-/* white */
-background: #FFFFFF;
-/* shadow */
-box-shadow: 0px 8px 16px rgba(11, 15, 98, 0.08);
-border-radius: 32px;
-
+    position: absolute;
+    width: 1010px;
+    height: 671px;
+    left: 0px;
+    top: 0px; */
+    
 }
 
 
+.arrow_left {
+    margin-top: 328px;
+    margin-bottom: 316px;
+}
 
+
+.arrow_right {
+    margin-top: 328px;
+    margin-bottom: 316px;
+}
