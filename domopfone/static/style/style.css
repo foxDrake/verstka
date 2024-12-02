@@ -64,3 +64,94 @@
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.two_container {
+    position: absolute;
+    width: 1920px;
+    height: 1337px;
+    left: 0px;
+    top: 464px;
+
+    /* grey blue */
+    background: #F5F9FE;
+}
+
+.about{
+    width: 1024px;
+    height: 153px;
+    top: 80px;
+    left: 453px;
+    gap: 0px;
+    opacity: 0px;
+
+
+/* Возможности умных функций в мобильном приложении «Мой POWERNET» */
+    position: absolute;
+    width: 1024px;
+    height: 153px;
+    left: calc(50% - 1024px/2 + 5px);
+    top: 80px;
+
+    font-family: 'Houschka Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 150%;
+    /* or 108px */
+    text-align: center;
+/* 
+    /* Gradients/grad_01-90 */
+    background: linear-gradient(90deg, #FBC300 0%, #EA62E4 98.25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span {
+    font-family: Houschka Pro;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+
+
+.activ_button {
+position: absolute;
+width: 506.5px;
+height: 64px;
+left: calc(50% - 506.5px/2 - 1.25px);
+top: 1193px;
+
+/* btn-call */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 24px;
+gap: 8px;
+
+position: absolute;
+width: 258px;
+height: 64px;
+left: calc(50% - 258px/2 - 125.5px);
+top: 1193px;
+
+/* white */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 8px 16px rgba(11, 15, 98, 0.08);
+border-radius: 32px;
+
+}
+
+
+
